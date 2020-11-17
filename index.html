@@ -1,218 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jolo Cansana</title>
-    <link rel="icon" type="image/png" href="assets/icon.png">
+    <title>🔧 In Progress</title>
+    <title>In Progress 🔧</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
     <style>
-        html,
-        body {
+        html, body {
             height: 100%;
         }
-
         /* CSS only for examples not required for centering */
         .container {
             height: 100%;
         }
-
-        #carousel {
-            height: 100vh;
-            background-color: #EDEDED;
-        }
-
-        .carousel-item {
-            height: 100vh;
-        }
-
-        .block {
-            background-color: white;
-            padding: 1in;
-            border-radius: .2in;
-            box-shadow: 2.5px 5px #888888;
-        }
-
-        .carousel-control-prev-icon,
-        .carousel-control-next-icon {
-            filter: invert(100%);
-        }
-
-        .carousel-indicators {
-            filter: invert(100%);
-        }
-
-        #footer {
-            color: #717171;
-        }
-
-        .content-holder {
-            width: 50%;
-        }
-
-        .mobile-call {
-            opacity: 0%;
-            margin: 10px 0;
-            color: #8A8A8A;
-            text-align: center;
-        }
-        
-        @media screen and (max-width: 600px) {
-            .signature {
-                height: 150px;
-                position: relative;
-                top: -50px !important;
-            }
-
-            .content-holder {
-                width: 100%;
-            }
-            
-            .mobile-call {
-                opacity: 100% !important;
-            }
-
-            #links {
-                text-align: center !important;
-            }
-
-            .hide-mobile {
-                opacity: 0;
-            }
-        }
     </style>
-    <link rel="stylesheet" href="flipcard.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <!--Carousel Wrapper-->
-    <div id="carousel" class="carousel slide" data-interval="false" data-wrap="false">
-
-        <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
-        </ol>
-
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <div class="container">
-                    <div class="h-100 row">
-                        <div class='col-sm-12 my-auto'>
-                            <div class="content-holder mx-auto text-center">
-                                <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                        <div class="flip-card-front">
-                                            <h1 class='display-4'>HELLO</h1>
-                                            <p class='lead'>My name is</p>
-                                            <div style='height: 90px; border-bottom: 3px black !important;'>
-                                                <img class='signature' src='assets/signature.png' height='200px' style='position: relative; top: -70px;'>
-                                            </div>
-                                            <p class='lead'>Pleasure to meet you</p>
-                                        </div>
-                                        <div class="flip-card-back">
-                                          <h3>Jose Lorenzo M. Cansana</h3>
-                                          <br>
-                                          <table>
-                                              <tr>
-                                                  <td style="width: 100px"><strong>email</strong></td>
-                                                  <td>jolo@cansana.net</td>
-                                              </tr>
-                                              <tr>
-                                                    <td><strong>uni</strong></td>
-                                                    <td>De La Salle University</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>degree</strong></td>
-                                                    <td>Computer Science - major in Software Technology, minor in ICT for Business Agility</td>
-                                                </tr>
-                                          </table>
-                                          <br>
-                                          <div id="links" class='row d-flex fixed-bottom m-3'>
-                                              <div class="col-6 float-left">
-                                                    <a href='https://www.facebook.com/jolocansana'>
-                                                      <img src='assets/facebook-logo.png'>
-                                                    </a>
-                                                    <a href='https://www.linkedin.com/in/joselorenzocansana/'>
-                                                        <img src='assets/linkedin-logo.png'>
-                                                    </a>
-                                            </div>
-                                            <div class='col-6 text-right'>
-                                              <a href='/cv'>CV</a> • <a href='/resume'>Resume</a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='mobile-call'>Click to see more.</div>
-                        </div>
-                    </div>
+    <div class="container">
+        <div class="h-100 row">
+            <div class='col-sm-12 my-auto'>
+                <div class="mx-auto  w-50">
+                    <h1 class='display-4'>Hello! 👷</h1>
+                    <p class='lead'>The site is currently under development.</p>
                 </div>
             </div>
-
-            <div class="carousel-item">
-                Project Showcase - Showcase of GITHUB Repos with brief descriptions
-            </div>
-
-            <div class="carousel-item">
-                Page3
-            </div>
         </div>
-
-        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-
     </div>
-    <div id="footer" class='fixed-bottom ml-3 mb-3' style='width:fit-content;'>
+    <div class='fixed-bottom ml-3 mb-3' style='width:fit-content;'>
         <img src='assets/logo.png' width='30px'>
-        <span class='ml-2 hide-mobile'> Jolo Cansana </span>
+        <span class='mx-3'>Jolo Cansana</span>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
-        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous">
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('#carousel').on('slid', '', checkitem);
-            $('#carousel').on('slid.bs.carousel', '', checkitem);
-
-            $(document).ready(function(){
-                checkitem();
-            });
-        });
-
-        function checkitem()
-        {
-            console.log("Test");
-            var $this = $('#carousel');
-            if($('.carousel-inner .carousel-item:first').hasClass('active')) {
-                $this.children('.carousel-control-prev').hide();
-                $this.children('.carousel-control-next').show();
-                console.log("First");
-            } else if($('.carousel-inner .carousel-item:last').hasClass('active')) {
-                $this.children('.carousel-control-prev').show();
-                $this.children('.carousel-control-next').hide();
-            } else {
-                $this.children('.carousel-control-prev').show();
-                $this.children('.carousel-control-next').show();
-            } 
-        }
-    </script>
 </body>
-
 </html>
