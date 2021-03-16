@@ -1,4 +1,4 @@
 # jolo.cansana.net
 Personal Website
 
-Lorem Ipsum
+Lorem Ipsum v2
