@@ -1,6 +1,6 @@
-[1616780644.295][INFO]: Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 42667
-[1616780644.295][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1616780645.295][INFO]: [859167f6eacb9193e1422322603acee0] COMMAND InitSession {
+[1616863260.423][INFO]: Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 57741
+[1616863260.423][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1616863260.963][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "chrome",
@@ -26,7 +26,7 @@
       "version": ""
    }
 }
-[1616780645.296][INFO]: Populating Preferences file: {
+[1616863260.967][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -79,7 +79,7 @@
       "enabled": false
    }
 }
-[1616780645.296][INFO]: Populating Local State file: {
+[1616863260.972][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -89,5 +89,1391 @@
       }
    }
 }
-[1616780645.296][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-logging --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --headless --log-level=3 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --silent --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.IK8Asa --window-size=1920,1080 data:,
-[1616780645.350][INFO]: resolved localhost to ["127.0.0.1"]
+[1616863260.979][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-logging --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --headless --log-level=3 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --silent --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\jolo\AppData\Local\Temp\scoped_dir7256_789917101" --window-size=1920,1080 data:,
+[1616863261.425][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1616863261.429][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "89.0.4389.90",
+      "chrome": {
+         "chromedriverVersion": "89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})",
+         "userDataDir": "C:\\Users\\jolo\\AppData\\Local\\Temp\\scoped_dir7256_789917101"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57747"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "1ecf66aded30ae0f11b57f088a95724c"
+}
+[1616863261.431][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND Navigate {
+   "url": "https://www.notion.so/Jose-Lorenzo-Jolo-Cansana-5b7d50bcbfb64ef39d3b0231e36fdd18"
+}
+[1616863261.431][INFO]: Waiting for pending navigations...
+[1616863261.432][INFO]: Done waiting for pending navigations. Status: ok
+[1616863263.987][INFO]: Waiting for pending navigations...
+[1616863264.468][INFO]: Done waiting for pending navigations. Status: ok
+[1616863264.469][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE Navigate
+[1616863264.469][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863264.470][INFO]: Waiting for pending navigations...
+[1616863264.470][INFO]: Done waiting for pending navigations. Status: ok
+[1616863264.476][INFO]: Waiting for pending navigations...
+[1616863264.476][INFO]: Done waiting for pending navigations. Status: ok
+[1616863264.476][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863264.980][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863264.980][INFO]: Waiting for pending navigations...
+[1616863264.982][INFO]: Done waiting for pending navigations. Status: ok
+[1616863264.986][INFO]: Waiting for pending navigations...
+[1616863264.986][INFO]: Done waiting for pending navigations. Status: ok
+[1616863264.986][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "cb6e4f86-0a89-4829-a90c-8b4fd84f0014"
+} ]
+[1616863264.987][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-unknown-block"
+}
+[1616863264.987][INFO]: Waiting for pending navigations...
+[1616863264.987][INFO]: Done waiting for pending navigations. Status: ok
+[1616863264.992][INFO]: Waiting for pending navigations...
+[1616863264.993][INFO]: Done waiting for pending navigations. Status: ok
+[1616863264.993][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863264.993][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".loading-spinner"
+}
+[1616863264.993][INFO]: Waiting for pending navigations...
+[1616863264.994][INFO]: Done waiting for pending navigations. Status: ok
+[1616863264.999][INFO]: Waiting for pending navigations...
+[1616863265.000][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.000][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863265.001][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-scroller"
+}
+[1616863265.001][INFO]: Waiting for pending navigations...
+[1616863265.002][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.007][INFO]: Waiting for pending navigations...
+[1616863265.007][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.007][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "273aa30c-2641-43e8-b9cb-9a02537b50a2"
+} ]
+[1616863265.008][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindChildElements {
+   "id": "273aa30c-2641-43e8-b9cb-9a02537b50a2",
+   "using": "css selector",
+   "value": "div"
+}
+[1616863265.008][INFO]: Waiting for pending navigations...
+[1616863265.008][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.015][INFO]: Waiting for pending navigations...
+[1616863265.016][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.016][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "426d90c8-c933-4b61-a2b1-6c2fcb24e8ca"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "185e8081-0f91-41de-be28-8ad6ecf3095f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43408350-e0d0-47c5-8f9f-389b64ee9b52"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6e9fe30c-3094-475c-aecc-e305f6451829"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5711ce37-b93f-41df-a012-27051f6ffb88"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1b5dbe9f-f2c3-49ee-b57d-91560bc86a9d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "44b9fc6a-ab93-4833-927f-0a3fb44d90ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "13430d89-bfd6-4d88-8628-4cd0fe09db42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "111906ee-060a-4791-b157-a0e972e7372b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1747bae2-db57-4320-9f86-71ac4027369d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0cfe830e-9405-44a3-be50-a62f9f720507"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "acf05636-4ae1-4888-a87e-7b6997be9a33"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b8e32e6a-3abd-4244-bbf1-59cb56bbf121"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1add43c7-7249-4588-bd1c-3535b673c685"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c93877e3-14ab-421f-8f4d-7451c9497d81"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1b95ffc4-c208-49b1-8833-b868f1d6e8ce"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "54d770ce-c81a-4c6f-b0a4-5ae3a4d0d372"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "126a323c-6c5b-40ee-adb8-46ddd125ba2d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "53016d1e-cca4-4a1f-a71b-c84119b4532d"
+}, "..." ]
+[1616863265.017][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-calendar-view"
+}
+[1616863265.017][INFO]: Waiting for pending navigations...
+[1616863265.017][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.022][INFO]: Waiting for pending navigations...
+[1616863265.023][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.023][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863265.024][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".notion-frame > .notion-scroller"
+}
+[1616863265.024][INFO]: Waiting for pending navigations...
+[1616863265.024][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.029][INFO]: Waiting for pending navigations...
+[1616863265.030][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.030][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "273aa30c-2641-43e8-b9cb-9a02537b50a2"
+}
+[1616863265.031][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "273aa30c-2641-43e8-b9cb-9a02537b50a2",
+      "element-6066-11e4-a52e-4f735466cecf": "273aa30c-2641-43e8-b9cb-9a02537b50a2"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863265.032][INFO]: Waiting for pending navigations...
+[1616863265.032][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.035][INFO]: Waiting for pending navigations...
+[1616863265.035][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.035][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "1035"
+[1616863265.036][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "273aa30c-2641-43e8-b9cb-9a02537b50a2",
+      "element-6066-11e4-a52e-4f735466cecf": "273aa30c-2641-43e8-b9cb-9a02537b50a2"
+   } ],
+   "script": "arguments[0].scrollTo(0, arguments[0].scrollHeight)"
+}
+[1616863265.036][INFO]: Waiting for pending navigations...
+[1616863265.037][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.038][INFO]: Waiting for pending navigations...
+[1616863265.038][INFO]: Done waiting for pending navigations. Status: ok
+[1616863265.038][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript null
+[1616863270.053][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "273aa30c-2641-43e8-b9cb-9a02537b50a2",
+      "element-6066-11e4-a52e-4f735466cecf": "273aa30c-2641-43e8-b9cb-9a02537b50a2"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863270.053][INFO]: Waiting for pending navigations...
+[1616863270.054][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.056][INFO]: Waiting for pending navigations...
+[1616863270.056][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.056][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "1035"
+[1616863270.057][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863270.057][INFO]: Waiting for pending navigations...
+[1616863270.057][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.062][INFO]: Waiting for pending navigations...
+[1616863270.062][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.062][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863270.062][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863270.062][INFO]: Waiting for pending navigations...
+[1616863270.063][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.065][INFO]: Waiting for pending navigations...
+[1616863270.065][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.065][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863270.066][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND GetSource {
+
+}
+[1616863270.066][INFO]: Waiting for pending navigations...
+[1616863270.066][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.068][INFO]: Waiting for pending navigations...
+[1616863270.069][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.069][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE GetSource "\u003Chtml lang=\"en\" class=\"notion-html\">\u003Chead>\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=..."
+[1616863270.390][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND Navigate {
+   "url": "https://www.notion.so/Learn-more-about-me-b8c540b3febe431db63b28b7ffb8ebeb"
+}
+[1616863270.390][INFO]: Waiting for pending navigations...
+[1616863270.391][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.610][INFO]: Waiting for pending navigations...
+[1616863270.812][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.812][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE Navigate
+[1616863270.813][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863270.813][INFO]: Waiting for pending navigations...
+[1616863270.813][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.816][INFO]: Waiting for pending navigations...
+[1616863270.817][INFO]: Done waiting for pending navigations. Status: ok
+[1616863270.817][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863271.332][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863271.332][INFO]: Waiting for pending navigations...
+[1616863271.332][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.335][INFO]: Waiting for pending navigations...
+[1616863271.335][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.335][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863271.848][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863271.848][INFO]: Waiting for pending navigations...
+[1616863271.852][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.854][INFO]: Waiting for pending navigations...
+[1616863271.854][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.854][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "4024a7f0-878c-482f-8661-7a9fd6863802"
+} ]
+[1616863271.855][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-unknown-block"
+}
+[1616863271.855][INFO]: Waiting for pending navigations...
+[1616863271.855][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.857][INFO]: Waiting for pending navigations...
+[1616863271.858][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.858][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863271.858][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".loading-spinner"
+}
+[1616863271.858][INFO]: Waiting for pending navigations...
+[1616863271.858][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.860][INFO]: Waiting for pending navigations...
+[1616863271.861][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.861][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863271.861][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-scroller"
+}
+[1616863271.861][INFO]: Waiting for pending navigations...
+[1616863271.861][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.863][INFO]: Waiting for pending navigations...
+[1616863271.864][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.864][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "dd304e04-97d3-4c25-8549-f5549734ee38"
+} ]
+[1616863271.864][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindChildElements {
+   "id": "dd304e04-97d3-4c25-8549-f5549734ee38",
+   "using": "css selector",
+   "value": "div"
+}
+[1616863271.864][INFO]: Waiting for pending navigations...
+[1616863271.864][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.872][INFO]: Waiting for pending navigations...
+[1616863271.873][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.873][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "a0723e6f-6087-4cbb-8426-e529a00a16e2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3e3c73c1-f845-4cf2-b510-130ed8ad4347"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4777de3a-ba04-45dd-8816-5dc3bcb6bd0e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5b3de6cd-db2a-4f07-8b8c-d279f12ca22e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "dd983127-9b70-41ae-ba34-61352c42c2a0"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c7560fa9-16ec-4f33-bfb7-5b26e132ec15"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "350eb5aa-81bc-4831-8d7f-346cd38b3bd2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "52f14b68-1757-42ca-8634-d25a2bec1f79"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b0a4d519-5839-40cd-9d2c-62b1d715f7d8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7b3e7050-d51c-4909-9014-f328ced68dae"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "de1a686a-85c7-4088-836f-e7f388946209"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1b393edc-f932-4968-b443-0cb5b5db5f5e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b11a490d-bdff-47a5-b4f3-7377c9cdafef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "23aeae28-5469-4106-9525-d64c5b2215c7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c5bd5efb-9536-4717-a36b-107c013e721d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4ef9d8fc-ece9-44bc-b527-dd83759d4f8d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9a786dc8-3046-4d32-a399-29d8605b8682"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3a0ea4d9-99b3-45fb-a30c-a3300e34ce06"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9404336c-6ff0-4401-b006-98cd5520b75b"
+}, "..." ]
+[1616863271.874][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-calendar-view"
+}
+[1616863271.874][INFO]: Waiting for pending navigations...
+[1616863271.874][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.877][INFO]: Waiting for pending navigations...
+[1616863271.877][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.877][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863271.877][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".notion-frame > .notion-scroller"
+}
+[1616863271.877][INFO]: Waiting for pending navigations...
+[1616863271.878][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.880][INFO]: Waiting for pending navigations...
+[1616863271.881][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.881][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "dd304e04-97d3-4c25-8549-f5549734ee38"
+}
+[1616863271.882][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "dd304e04-97d3-4c25-8549-f5549734ee38",
+      "element-6066-11e4-a52e-4f735466cecf": "dd304e04-97d3-4c25-8549-f5549734ee38"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863271.882][INFO]: Waiting for pending navigations...
+[1616863271.882][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.884][INFO]: Waiting for pending navigations...
+[1616863271.885][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.885][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "1744"
+[1616863271.886][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "dd304e04-97d3-4c25-8549-f5549734ee38",
+      "element-6066-11e4-a52e-4f735466cecf": "dd304e04-97d3-4c25-8549-f5549734ee38"
+   } ],
+   "script": "arguments[0].scrollTo(0, arguments[0].scrollHeight)"
+}
+[1616863271.886][INFO]: Waiting for pending navigations...
+[1616863271.886][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.887][INFO]: Waiting for pending navigations...
+[1616863271.888][INFO]: Done waiting for pending navigations. Status: ok
+[1616863271.888][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript null
+[1616863276.892][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "dd304e04-97d3-4c25-8549-f5549734ee38",
+      "element-6066-11e4-a52e-4f735466cecf": "dd304e04-97d3-4c25-8549-f5549734ee38"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863276.892][INFO]: Waiting for pending navigations...
+[1616863276.892][INFO]: Done waiting for pending navigations. Status: ok
+[1616863276.894][INFO]: Waiting for pending navigations...
+[1616863276.894][INFO]: Done waiting for pending navigations. Status: ok
+[1616863276.894][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "2318"
+[1616863276.895][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "dd304e04-97d3-4c25-8549-f5549734ee38",
+      "element-6066-11e4-a52e-4f735466cecf": "dd304e04-97d3-4c25-8549-f5549734ee38"
+   } ],
+   "script": "arguments[0].scrollTo(0, arguments[0].scrollHeight)"
+}
+[1616863276.895][INFO]: Waiting for pending navigations...
+[1616863276.895][INFO]: Done waiting for pending navigations. Status: ok
+[1616863276.896][INFO]: Waiting for pending navigations...
+[1616863276.899][INFO]: Done waiting for pending navigations. Status: ok
+[1616863276.899][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript null
+[1616863281.905][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "dd304e04-97d3-4c25-8549-f5549734ee38",
+      "element-6066-11e4-a52e-4f735466cecf": "dd304e04-97d3-4c25-8549-f5549734ee38"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863281.905][INFO]: Waiting for pending navigations...
+[1616863281.906][INFO]: Done waiting for pending navigations. Status: ok
+[1616863281.908][INFO]: Waiting for pending navigations...
+[1616863281.908][INFO]: Done waiting for pending navigations. Status: ok
+[1616863281.908][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "2318"
+[1616863281.909][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863281.909][INFO]: Waiting for pending navigations...
+[1616863281.909][INFO]: Done waiting for pending navigations. Status: ok
+[1616863281.914][INFO]: Waiting for pending navigations...
+[1616863281.915][INFO]: Done waiting for pending navigations. Status: ok
+[1616863281.915][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863281.915][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863281.915][INFO]: Waiting for pending navigations...
+[1616863281.916][INFO]: Done waiting for pending navigations. Status: ok
+[1616863281.918][INFO]: Waiting for pending navigations...
+[1616863281.918][INFO]: Done waiting for pending navigations. Status: ok
+[1616863281.918][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863281.919][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND GetSource {
+
+}
+[1616863281.919][INFO]: Waiting for pending navigations...
+[1616863281.919][INFO]: Done waiting for pending navigations. Status: ok
+[1616863281.922][INFO]: Waiting for pending navigations...
+[1616863281.923][INFO]: Done waiting for pending navigations. Status: ok
+[1616863281.923][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE GetSource "\u003Chtml lang=\"en\" class=\"notion-html\">\u003Chead>\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=..."
+[1616863282.093][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND Navigate {
+   "url": "https://www.notion.so/Projects-f31f6436951941aa91621e1c5618d723"
+}
+[1616863282.093][INFO]: Waiting for pending navigations...
+[1616863282.094][INFO]: Done waiting for pending navigations. Status: ok
+[1616863282.327][INFO]: Waiting for pending navigations...
+[1616863282.508][INFO]: Done waiting for pending navigations. Status: ok
+[1616863282.508][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE Navigate
+[1616863282.509][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863282.509][INFO]: Waiting for pending navigations...
+[1616863282.522][INFO]: Done waiting for pending navigations. Status: ok
+[1616863282.527][INFO]: Waiting for pending navigations...
+[1616863282.527][INFO]: Done waiting for pending navigations. Status: ok
+[1616863282.527][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863283.032][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863283.032][INFO]: Waiting for pending navigations...
+[1616863283.037][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.040][INFO]: Waiting for pending navigations...
+[1616863283.040][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.040][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "a9be2bb9-cad6-489b-80fc-73c7c4985ea6"
+} ]
+[1616863283.041][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-unknown-block"
+}
+[1616863283.041][INFO]: Waiting for pending navigations...
+[1616863283.041][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.046][INFO]: Waiting for pending navigations...
+[1616863283.046][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.046][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863283.047][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".loading-spinner"
+}
+[1616863283.047][INFO]: Waiting for pending navigations...
+[1616863283.047][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.117][INFO]: Waiting for pending navigations...
+[1616863283.124][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.124][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863283.125][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-scroller"
+}
+[1616863283.125][INFO]: Waiting for pending navigations...
+[1616863283.166][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.171][INFO]: Waiting for pending navigations...
+[1616863283.171][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.171][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "6c167cdd-4815-422d-8bf1-365a725a955d"
+} ]
+[1616863283.172][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindChildElements {
+   "id": "6c167cdd-4815-422d-8bf1-365a725a955d",
+   "using": "css selector",
+   "value": "div"
+}
+[1616863283.172][INFO]: Waiting for pending navigations...
+[1616863283.172][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.185][INFO]: Waiting for pending navigations...
+[1616863283.185][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.185][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "07999ef3-56ac-4774-bc93-ac316fae8651"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fa94a9c0-4f57-459a-a76e-23ee3349834a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1442b42c-f230-45fa-a01a-58480e578051"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3af71e38-7909-4f78-84d4-0cd83ecef66a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "95ebaa54-d591-4261-8e95-4927e676ad91"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "569f81cc-dab3-497a-a76d-6377baa93564"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "396fe90a-43f2-48c7-98c0-df57dec5c0f0"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ef45f06c-3317-4f85-a12f-6ba7b789adee"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c32d8021-627a-4746-946c-9799910da702"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7022c12a-d971-468a-8190-dff8c3a47f82"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8883cce1-d558-4dd5-ae54-bd3d83c0dc9e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68db6d64-d800-4ced-99bd-08bff7f357a9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0bc888da-ca7f-4773-a7ad-5885a222b0c3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "46a4f6c9-abe2-4537-bf15-d21accbf2270"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "49e2e283-bffe-4848-a897-3593e1c99a71"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1d606c87-7cfe-4e30-98d4-0275c27763a4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b2750d01-f48f-4e47-b5d7-d3f69d670693"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6d9ea479-767c-428e-b979-96bd91fdf004"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3a465fbf-ce3a-4d2a-9851-300cfbc4e097"
+}, "..." ]
+[1616863283.187][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-calendar-view"
+}
+[1616863283.187][INFO]: Waiting for pending navigations...
+[1616863283.188][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.193][INFO]: Waiting for pending navigations...
+[1616863283.193][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.193][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863283.193][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".notion-frame > .notion-scroller"
+}
+[1616863283.193][INFO]: Waiting for pending navigations...
+[1616863283.194][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.199][INFO]: Waiting for pending navigations...
+[1616863283.199][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.199][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6c167cdd-4815-422d-8bf1-365a725a955d"
+}
+[1616863283.200][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "6c167cdd-4815-422d-8bf1-365a725a955d",
+      "element-6066-11e4-a52e-4f735466cecf": "6c167cdd-4815-422d-8bf1-365a725a955d"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863283.200][INFO]: Waiting for pending navigations...
+[1616863283.200][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.203][INFO]: Waiting for pending navigations...
+[1616863283.203][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.203][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "2555"
+[1616863283.204][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "6c167cdd-4815-422d-8bf1-365a725a955d",
+      "element-6066-11e4-a52e-4f735466cecf": "6c167cdd-4815-422d-8bf1-365a725a955d"
+   } ],
+   "script": "arguments[0].scrollTo(0, arguments[0].scrollHeight)"
+}
+[1616863283.204][INFO]: Waiting for pending navigations...
+[1616863283.204][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.206][INFO]: Waiting for pending navigations...
+[1616863283.207][INFO]: Done waiting for pending navigations. Status: ok
+[1616863283.207][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript null
+[1616863288.209][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "6c167cdd-4815-422d-8bf1-365a725a955d",
+      "element-6066-11e4-a52e-4f735466cecf": "6c167cdd-4815-422d-8bf1-365a725a955d"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863288.210][INFO]: Waiting for pending navigations...
+[1616863288.210][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.212][INFO]: Waiting for pending navigations...
+[1616863288.212][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.212][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "2555"
+[1616863288.213][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863288.213][INFO]: Waiting for pending navigations...
+[1616863288.213][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.216][INFO]: Waiting for pending navigations...
+[1616863288.216][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.216][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863288.217][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863288.217][INFO]: Waiting for pending navigations...
+[1616863288.217][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.220][INFO]: Waiting for pending navigations...
+[1616863288.220][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.220][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863288.220][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND GetSource {
+
+}
+[1616863288.220][INFO]: Waiting for pending navigations...
+[1616863288.221][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.225][INFO]: Waiting for pending navigations...
+[1616863288.225][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.225][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE GetSource "\u003Chtml lang=\"en\" class=\"notion-html\">\u003Chead>\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=..."
+[1616863288.414][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND Navigate {
+   "url": "https://www.notion.so/Bids-ph-Demo-68fee99922bb44ac8e42ad481d90a406"
+}
+[1616863288.414][INFO]: Waiting for pending navigations...
+[1616863288.415][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.646][INFO]: Waiting for pending navigations...
+[1616863288.803][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.803][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE Navigate
+[1616863288.803][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863288.803][INFO]: Waiting for pending navigations...
+[1616863288.804][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.806][INFO]: Waiting for pending navigations...
+[1616863288.807][INFO]: Done waiting for pending navigations. Status: ok
+[1616863288.807][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863289.315][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863289.315][INFO]: Waiting for pending navigations...
+[1616863289.316][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.318][INFO]: Waiting for pending navigations...
+[1616863289.318][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.319][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863289.834][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863289.834][INFO]: Waiting for pending navigations...
+[1616863289.977][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.980][INFO]: Waiting for pending navigations...
+[1616863289.982][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.982][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "a80b6d88-b0c7-40f3-995c-30cc6e7ce483"
+} ]
+[1616863289.983][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-unknown-block"
+}
+[1616863289.983][INFO]: Waiting for pending navigations...
+[1616863289.984][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.986][INFO]: Waiting for pending navigations...
+[1616863289.986][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.986][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863289.987][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".loading-spinner"
+}
+[1616863289.987][INFO]: Waiting for pending navigations...
+[1616863289.987][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.989][INFO]: Waiting for pending navigations...
+[1616863289.989][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.989][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863289.990][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-scroller"
+}
+[1616863289.990][INFO]: Waiting for pending navigations...
+[1616863289.990][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.992][INFO]: Waiting for pending navigations...
+[1616863289.992][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.992][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "5385053e-6480-409f-9470-5ef5c4f1d3d6"
+} ]
+[1616863289.993][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindChildElements {
+   "id": "5385053e-6480-409f-9470-5ef5c4f1d3d6",
+   "using": "css selector",
+   "value": "div"
+}
+[1616863289.993][INFO]: Waiting for pending navigations...
+[1616863289.993][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.999][INFO]: Waiting for pending navigations...
+[1616863289.999][INFO]: Done waiting for pending navigations. Status: ok
+[1616863289.999][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "87370bb3-e855-4971-94ba-fdb3ad76d787"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "332ac894-222a-469c-9daf-ed97dfb3f3eb"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "452fac7e-d7dd-4e19-a560-05a1c57db34d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "421c037c-f34d-46e9-84a1-6aaf22d089e0"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bb187b85-e1fa-4e4a-abe5-73445c6dc4d6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3aae0472-592b-40dc-bd94-341981eca666"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95a0136-dc11-48cb-915c-20c90909d725"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6df24c7c-786d-4281-a56a-0a71215794d6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ca74f44e-b315-4b1f-afb0-fe53523c3c30"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d865fcc0-f005-46ca-b1ce-c13ec50b74fe"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "83cea6ff-a902-460e-a9d3-fde782910283"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "db2559b0-8bb1-484c-afaf-2c33b7bdac00"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5fe4de49-2663-4c80-aee8-54792ea74a39"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "46388a33-77da-4936-9447-467e9b85aa3d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b9aeee50-1f2d-4e56-8b49-75568a6e1efc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ff59d8a9-82c1-4f72-91d0-c6b932cf2267"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "07e2648b-298e-4082-a22d-2cd04f7a5b2c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f3160203-f193-41e3-9265-dbb786ace4bc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5421b028-3329-4542-81cf-b57821efd4d7"
+}, "..." ]
+[1616863290.000][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-calendar-view"
+}
+[1616863290.000][INFO]: Waiting for pending navigations...
+[1616863290.000][INFO]: Done waiting for pending navigations. Status: ok
+[1616863290.003][INFO]: Waiting for pending navigations...
+[1616863290.003][INFO]: Done waiting for pending navigations. Status: ok
+[1616863290.003][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863290.003][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".notion-frame > .notion-scroller"
+}
+[1616863290.003][INFO]: Waiting for pending navigations...
+[1616863290.004][INFO]: Done waiting for pending navigations. Status: ok
+[1616863290.006][INFO]: Waiting for pending navigations...
+[1616863290.006][INFO]: Done waiting for pending navigations. Status: ok
+[1616863290.006][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5385053e-6480-409f-9470-5ef5c4f1d3d6"
+}
+[1616863290.007][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "5385053e-6480-409f-9470-5ef5c4f1d3d6",
+      "element-6066-11e4-a52e-4f735466cecf": "5385053e-6480-409f-9470-5ef5c4f1d3d6"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863290.007][INFO]: Waiting for pending navigations...
+[1616863290.008][INFO]: Done waiting for pending navigations. Status: ok
+[1616863290.009][INFO]: Waiting for pending navigations...
+[1616863290.010][INFO]: Done waiting for pending navigations. Status: ok
+[1616863290.010][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "1641"
+[1616863290.010][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "5385053e-6480-409f-9470-5ef5c4f1d3d6",
+      "element-6066-11e4-a52e-4f735466cecf": "5385053e-6480-409f-9470-5ef5c4f1d3d6"
+   } ],
+   "script": "arguments[0].scrollTo(0, arguments[0].scrollHeight)"
+}
+[1616863290.010][INFO]: Waiting for pending navigations...
+[1616863290.010][INFO]: Done waiting for pending navigations. Status: ok
+[1616863290.012][INFO]: Waiting for pending navigations...
+[1616863290.012][INFO]: Done waiting for pending navigations. Status: ok
+[1616863290.012][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript null
+[1616863295.018][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "5385053e-6480-409f-9470-5ef5c4f1d3d6",
+      "element-6066-11e4-a52e-4f735466cecf": "5385053e-6480-409f-9470-5ef5c4f1d3d6"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863295.018][INFO]: Waiting for pending navigations...
+[1616863295.019][INFO]: Done waiting for pending navigations. Status: ok
+[1616863295.020][INFO]: Waiting for pending navigations...
+[1616863295.020][INFO]: Done waiting for pending navigations. Status: ok
+[1616863295.020][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "1641"
+[1616863295.021][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863295.021][INFO]: Waiting for pending navigations...
+[1616863295.021][INFO]: Done waiting for pending navigations. Status: ok
+[1616863295.024][INFO]: Waiting for pending navigations...
+[1616863295.024][INFO]: Done waiting for pending navigations. Status: ok
+[1616863295.024][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863295.025][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863295.025][INFO]: Waiting for pending navigations...
+[1616863295.025][INFO]: Done waiting for pending navigations. Status: ok
+[1616863295.027][INFO]: Waiting for pending navigations...
+[1616863295.028][INFO]: Done waiting for pending navigations. Status: ok
+[1616863295.028][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863295.028][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND GetSource {
+
+}
+[1616863295.028][INFO]: Waiting for pending navigations...
+[1616863295.028][INFO]: Done waiting for pending navigations. Status: ok
+[1616863295.031][INFO]: Waiting for pending navigations...
+[1616863295.031][INFO]: Done waiting for pending navigations. Status: ok
+[1616863295.031][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE GetSource "\u003Chtml lang=\"en\" class=\"notion-html\">\u003Chead>\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=..."
+[1616863295.187][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND Navigate {
+   "url": "https://www.notion.so/ClinicExpress-Demo-8fb3a8038c034abc9fedd6623a96a9e7"
+}
+[1616863295.187][INFO]: Waiting for pending navigations...
+[1616863295.187][INFO]: Done waiting for pending navigations. Status: ok
+[1616863295.967][INFO]: Waiting for pending navigations...
+[1616863296.114][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.114][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE Navigate
+[1616863296.114][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863296.114][INFO]: Waiting for pending navigations...
+[1616863296.126][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.129][INFO]: Waiting for pending navigations...
+[1616863296.129][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.129][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863296.635][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863296.635][INFO]: Waiting for pending navigations...
+[1616863296.636][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.639][INFO]: Waiting for pending navigations...
+[1616863296.639][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.639][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "26637c55-f175-45f3-ad41-8633b7de7ecd"
+} ]
+[1616863296.640][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-unknown-block"
+}
+[1616863296.640][INFO]: Waiting for pending navigations...
+[1616863296.640][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.642][INFO]: Waiting for pending navigations...
+[1616863296.642][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.642][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863296.643][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".loading-spinner"
+}
+[1616863296.643][INFO]: Waiting for pending navigations...
+[1616863296.643][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.645][INFO]: Waiting for pending navigations...
+[1616863296.645][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.645][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863296.646][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-scroller"
+}
+[1616863296.646][INFO]: Waiting for pending navigations...
+[1616863296.646][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.648][INFO]: Waiting for pending navigations...
+[1616863296.649][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.649][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "527dd15d-4c7b-4e61-b1f4-5325bc4f3d10"
+} ]
+[1616863296.649][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindChildElements {
+   "id": "527dd15d-4c7b-4e61-b1f4-5325bc4f3d10",
+   "using": "css selector",
+   "value": "div"
+}
+[1616863296.649][INFO]: Waiting for pending navigations...
+[1616863296.666][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.837][INFO]: Waiting for pending navigations...
+[1616863296.844][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.845][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "d0d77b76-7806-4aeb-a50d-6206dae8c395"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6f5065ad-8cf0-4698-b08a-2a1239d29bb8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ef5b3b1c-4b0b-4f7a-8283-b3c070b40f14"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "947ae041-bfe7-4907-9230-9b180f77e995"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "afd13ce8-90f9-494c-a6d6-b0659bee15c9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bbf0bccb-1c36-498a-9191-16b938a9920b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "57b816d9-4c05-4019-a3ab-31b5f8a70c68"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "44f2c426-5f6c-45a4-bc3b-ceafd41e7347"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7bd440cf-c132-4219-bf2c-7a67f8df2c7b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2901f231-c6f6-4e96-8d88-25282daaac56"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7dd55616-17ae-412c-8873-0ede61597fe1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cb843b09-f59b-45a5-a1e4-3a100e01e15d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2ced0d56-db5a-4506-b61e-ee68f78383cf"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "982e59ef-26dc-4439-a34d-255876bc3e67"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "51fb1f01-cdeb-4ecd-8431-7c5473c52ea8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6c61be18-60d3-442c-8f31-425a66c1cb35"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d718eec7-ff10-43cc-9870-7ebe45bf84cf"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68797853-c948-490a-a63e-e53e637e2a12"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "300060d4-8d58-486a-ace3-8f95a230d513"
+}, "..." ]
+[1616863296.846][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-calendar-view"
+}
+[1616863296.846][INFO]: Waiting for pending navigations...
+[1616863296.846][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.848][INFO]: Waiting for pending navigations...
+[1616863296.849][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.849][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863296.850][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".notion-frame > .notion-scroller"
+}
+[1616863296.850][INFO]: Waiting for pending navigations...
+[1616863296.850][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.853][INFO]: Waiting for pending navigations...
+[1616863296.853][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.853][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "527dd15d-4c7b-4e61-b1f4-5325bc4f3d10"
+}
+[1616863296.854][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "527dd15d-4c7b-4e61-b1f4-5325bc4f3d10",
+      "element-6066-11e4-a52e-4f735466cecf": "527dd15d-4c7b-4e61-b1f4-5325bc4f3d10"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863296.854][INFO]: Waiting for pending navigations...
+[1616863296.854][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.856][INFO]: Waiting for pending navigations...
+[1616863296.856][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.856][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "2047"
+[1616863296.857][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "527dd15d-4c7b-4e61-b1f4-5325bc4f3d10",
+      "element-6066-11e4-a52e-4f735466cecf": "527dd15d-4c7b-4e61-b1f4-5325bc4f3d10"
+   } ],
+   "script": "arguments[0].scrollTo(0, arguments[0].scrollHeight)"
+}
+[1616863296.857][INFO]: Waiting for pending navigations...
+[1616863296.857][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.858][INFO]: Waiting for pending navigations...
+[1616863296.859][INFO]: Done waiting for pending navigations. Status: ok
+[1616863296.859][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript null
+[1616863301.864][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "527dd15d-4c7b-4e61-b1f4-5325bc4f3d10",
+      "element-6066-11e4-a52e-4f735466cecf": "527dd15d-4c7b-4e61-b1f4-5325bc4f3d10"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863301.864][INFO]: Waiting for pending navigations...
+[1616863301.865][INFO]: Done waiting for pending navigations. Status: ok
+[1616863301.866][INFO]: Waiting for pending navigations...
+[1616863301.867][INFO]: Done waiting for pending navigations. Status: ok
+[1616863301.867][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "2047"
+[1616863301.867][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863301.867][INFO]: Waiting for pending navigations...
+[1616863301.868][INFO]: Done waiting for pending navigations. Status: ok
+[1616863301.870][INFO]: Waiting for pending navigations...
+[1616863301.870][INFO]: Done waiting for pending navigations. Status: ok
+[1616863301.870][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863301.871][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863301.871][INFO]: Waiting for pending navigations...
+[1616863301.871][INFO]: Done waiting for pending navigations. Status: ok
+[1616863301.874][INFO]: Waiting for pending navigations...
+[1616863301.874][INFO]: Done waiting for pending navigations. Status: ok
+[1616863301.874][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863301.875][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND GetSource {
+
+}
+[1616863301.875][INFO]: Waiting for pending navigations...
+[1616863301.875][INFO]: Done waiting for pending navigations. Status: ok
+[1616863301.877][INFO]: Waiting for pending navigations...
+[1616863301.878][INFO]: Done waiting for pending navigations. Status: ok
+[1616863301.878][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE GetSource "\u003Chtml lang=\"en\" class=\"notion-html\">\u003Chead>\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=..."
+[1616863302.032][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND Navigate {
+   "url": "https://www.notion.so/Pharmago-Demo-129532579baa4757ba21a6a6ed7da4d6"
+}
+[1616863302.032][INFO]: Waiting for pending navigations...
+[1616863302.032][INFO]: Done waiting for pending navigations. Status: ok
+[1616863302.253][INFO]: Waiting for pending navigations...
+[1616863302.395][INFO]: Done waiting for pending navigations. Status: ok
+[1616863302.395][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE Navigate
+[1616863302.396][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863302.396][INFO]: Waiting for pending navigations...
+[1616863302.405][INFO]: Done waiting for pending navigations. Status: ok
+[1616863302.407][INFO]: Waiting for pending navigations...
+[1616863302.408][INFO]: Done waiting for pending navigations. Status: ok
+[1616863302.408][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863302.918][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863302.918][INFO]: Waiting for pending navigations...
+[1616863303.048][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.053][INFO]: Waiting for pending navigations...
+[1616863303.057][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.057][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "fecc95e3-dd29-4f49-b797-596841f34e28"
+} ]
+[1616863303.058][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-unknown-block"
+}
+[1616863303.058][INFO]: Waiting for pending navigations...
+[1616863303.058][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.060][INFO]: Waiting for pending navigations...
+[1616863303.061][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.061][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863303.061][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".loading-spinner"
+}
+[1616863303.061][INFO]: Waiting for pending navigations...
+[1616863303.061][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.063][INFO]: Waiting for pending navigations...
+[1616863303.064][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.064][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863303.065][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-scroller"
+}
+[1616863303.065][INFO]: Waiting for pending navigations...
+[1616863303.065][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.067][INFO]: Waiting for pending navigations...
+[1616863303.068][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.068][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "170c5b22-4cb8-4d20-a43d-e8a5dc00797f"
+} ]
+[1616863303.068][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindChildElements {
+   "id": "170c5b22-4cb8-4d20-a43d-e8a5dc00797f",
+   "using": "css selector",
+   "value": "div"
+}
+[1616863303.068][INFO]: Waiting for pending navigations...
+[1616863303.068][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.074][INFO]: Waiting for pending navigations...
+[1616863303.074][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.074][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "ff5f5010-729e-4914-9165-5dec12e36ed6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "97692d59-0bdf-4190-b9f7-17e0a76e70f4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0841c071-d051-4d72-8191-8549cadf67b5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6fdda357-3168-4fdf-ac03-0bd7c41b28e6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "eafa599f-fec9-4865-9f37-fa77fa64d2bd"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cbd247f5-d37f-4fc7-8659-8567030ec23a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f29891ad-e668-43d6-9a34-f64a50154a4d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f646a48f-7747-46f9-905a-ec3ee774ec18"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6ea31b9d-d5b6-4daf-abfe-9806583747df"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2fc41c12-d6af-4982-acac-2adb155b454b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fd2cf6ee-9fea-47fb-9ad8-bb9ea385f958"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "64a71e2b-cf6a-45fd-a69f-8c7c519d15df"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ef824513-2a47-4b5d-9221-57323f919e2a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6722369c-6005-4dbb-b8b9-7c86d1f3f904"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ef0d8056-be41-4958-a81d-40d4bbd5cf20"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "b3d0a840-fc11-494f-a633-88bada042c6e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d5553ca9-697b-47b9-b166-95648cc9aa1b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a4f17c48-6b93-4325-beb2-96468d10b2b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "915b542e-3d48-4828-a0bc-38068da1c505"
+}, "..." ]
+[1616863303.075][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-calendar-view"
+}
+[1616863303.075][INFO]: Waiting for pending navigations...
+[1616863303.075][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.077][INFO]: Waiting for pending navigations...
+[1616863303.077][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.077][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863303.078][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".notion-frame > .notion-scroller"
+}
+[1616863303.078][INFO]: Waiting for pending navigations...
+[1616863303.078][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.080][INFO]: Waiting for pending navigations...
+[1616863303.080][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.081][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "170c5b22-4cb8-4d20-a43d-e8a5dc00797f"
+}
+[1616863303.081][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "170c5b22-4cb8-4d20-a43d-e8a5dc00797f",
+      "element-6066-11e4-a52e-4f735466cecf": "170c5b22-4cb8-4d20-a43d-e8a5dc00797f"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863303.081][INFO]: Waiting for pending navigations...
+[1616863303.082][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.084][INFO]: Waiting for pending navigations...
+[1616863303.084][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.084][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "2127"
+[1616863303.085][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "170c5b22-4cb8-4d20-a43d-e8a5dc00797f",
+      "element-6066-11e4-a52e-4f735466cecf": "170c5b22-4cb8-4d20-a43d-e8a5dc00797f"
+   } ],
+   "script": "arguments[0].scrollTo(0, arguments[0].scrollHeight)"
+}
+[1616863303.085][INFO]: Waiting for pending navigations...
+[1616863303.085][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.086][INFO]: Waiting for pending navigations...
+[1616863303.087][INFO]: Done waiting for pending navigations. Status: ok
+[1616863303.087][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript null
+[1616863308.090][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "170c5b22-4cb8-4d20-a43d-e8a5dc00797f",
+      "element-6066-11e4-a52e-4f735466cecf": "170c5b22-4cb8-4d20-a43d-e8a5dc00797f"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863308.091][INFO]: Waiting for pending navigations...
+[1616863308.091][INFO]: Done waiting for pending navigations. Status: ok
+[1616863308.093][INFO]: Waiting for pending navigations...
+[1616863308.093][INFO]: Done waiting for pending navigations. Status: ok
+[1616863308.093][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "2127"
+[1616863308.093][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863308.093][INFO]: Waiting for pending navigations...
+[1616863308.094][INFO]: Done waiting for pending navigations. Status: ok
+[1616863308.096][INFO]: Waiting for pending navigations...
+[1616863308.096][INFO]: Done waiting for pending navigations. Status: ok
+[1616863308.096][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863308.097][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863308.097][INFO]: Waiting for pending navigations...
+[1616863308.097][INFO]: Done waiting for pending navigations. Status: ok
+[1616863308.099][INFO]: Waiting for pending navigations...
+[1616863308.099][INFO]: Done waiting for pending navigations. Status: ok
+[1616863308.099][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863308.100][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND GetSource {
+
+}
+[1616863308.100][INFO]: Waiting for pending navigations...
+[1616863308.100][INFO]: Done waiting for pending navigations. Status: ok
+[1616863308.102][INFO]: Waiting for pending navigations...
+[1616863308.103][INFO]: Done waiting for pending navigations. Status: ok
+[1616863308.103][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE GetSource "\u003Chtml lang=\"en\" class=\"notion-html\">\u003Chead>\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=..."
+[1616863308.255][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND Navigate {
+   "url": "https://www.notion.so/16114d2939b943f79867f41f66c3029d"
+}
+[1616863308.256][INFO]: Waiting for pending navigations...
+[1616863308.256][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.006][INFO]: Waiting for pending navigations...
+[1616863309.139][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.139][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE Navigate
+[1616863309.140][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863309.140][INFO]: Waiting for pending navigations...
+[1616863309.150][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.153][INFO]: Waiting for pending navigations...
+[1616863309.153][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.153][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863309.665][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1616863309.665][INFO]: Waiting for pending navigations...
+[1616863309.700][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.703][INFO]: Waiting for pending navigations...
+[1616863309.704][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.704][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "612a5541-e5a4-453b-9c45-dfb98cbe61ab"
+} ]
+[1616863309.704][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-unknown-block"
+}
+[1616863309.704][INFO]: Waiting for pending navigations...
+[1616863309.705][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.707][INFO]: Waiting for pending navigations...
+[1616863309.707][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.707][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863309.708][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".loading-spinner"
+}
+[1616863309.708][INFO]: Waiting for pending navigations...
+[1616863309.708][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.710][INFO]: Waiting for pending navigations...
+[1616863309.710][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.710][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863309.711][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-scroller"
+}
+[1616863309.711][INFO]: Waiting for pending navigations...
+[1616863309.711][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.713][INFO]: Waiting for pending navigations...
+[1616863309.714][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.714][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "295bee5e-c95f-4391-b434-cd345e8a6949"
+} ]
+[1616863309.714][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindChildElements {
+   "id": "295bee5e-c95f-4391-b434-cd345e8a6949",
+   "using": "css selector",
+   "value": "div"
+}
+[1616863309.714][INFO]: Waiting for pending navigations...
+[1616863309.715][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.723][INFO]: Waiting for pending navigations...
+[1616863309.724][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.724][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "96faa7cc-e705-4886-8a66-5743cdbb4b18"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f0ebe2a5-61cc-42ab-807e-b6ea49b9adaf"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a98a41f7-c7b1-420d-85a9-5398ca0dd01f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5b18d8b2-c36d-46e6-95d0-a383cfd27f6d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5fb2aa51-8345-41c5-8584-72292aecc6d0"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c08563c8-fcce-4392-a6fc-4ab5b9fa0c4a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7cd2675e-e10b-4cc8-9bd4-7dc76b2581d2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5e3ce5f3-de41-4188-b74e-a55917260c52"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4ffe47a7-f679-4549-9983-1547db5de74f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "209a0d35-e99b-4657-ac8d-c26bab480316"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ceb20cb4-688f-4e0b-8779-78e7a9dcdf96"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fc4ab8cf-5c50-486c-9934-c115ca5a4db1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "a2a611cd-2e9e-40df-9be9-dbf9e322d758"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ab568bad-81fd-494c-8da4-322a42b16fa9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6e7384d6-ab62-4c2d-98f2-6833cf6b06ec"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d366bbf8-6025-4e3c-942b-084dea6b820e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "757a61ec-3a96-40e3-8905-7745cf44455d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9403cd18-ddd9-4d80-b975-1d3fe2f2bc80"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c127d7cd-ce7c-4fa4-9b00-73987ada95eb"
+}, "..." ]
+[1616863309.725][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-calendar-view"
+}
+[1616863309.725][INFO]: Waiting for pending navigations...
+[1616863309.725][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.728][INFO]: Waiting for pending navigations...
+[1616863309.728][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.728][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863309.729][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".notion-frame > .notion-scroller"
+}
+[1616863309.729][INFO]: Waiting for pending navigations...
+[1616863309.729][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.732][INFO]: Waiting for pending navigations...
+[1616863309.732][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.732][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "295bee5e-c95f-4391-b434-cd345e8a6949"
+}
+[1616863309.733][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "295bee5e-c95f-4391-b434-cd345e8a6949",
+      "element-6066-11e4-a52e-4f735466cecf": "295bee5e-c95f-4391-b434-cd345e8a6949"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863309.734][INFO]: Waiting for pending navigations...
+[1616863309.734][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.736][INFO]: Waiting for pending navigations...
+[1616863309.736][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.736][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "2407"
+[1616863309.737][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "295bee5e-c95f-4391-b434-cd345e8a6949",
+      "element-6066-11e4-a52e-4f735466cecf": "295bee5e-c95f-4391-b434-cd345e8a6949"
+   } ],
+   "script": "arguments[0].scrollTo(0, arguments[0].scrollHeight)"
+}
+[1616863309.737][INFO]: Waiting for pending navigations...
+[1616863309.737][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.738][INFO]: Waiting for pending navigations...
+[1616863309.739][INFO]: Done waiting for pending navigations. Status: ok
+[1616863309.739][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript null
+[1616863314.743][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "295bee5e-c95f-4391-b434-cd345e8a6949",
+      "element-6066-11e4-a52e-4f735466cecf": "295bee5e-c95f-4391-b434-cd345e8a6949"
+   }, "scrollHeight" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1616863314.743][INFO]: Waiting for pending navigations...
+[1616863314.744][INFO]: Done waiting for pending navigations. Status: ok
+[1616863314.745][INFO]: Waiting for pending navigations...
+[1616863314.746][INFO]: Done waiting for pending navigations. Status: ok
+[1616863314.746][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE ExecuteScript "2407"
+[1616863314.746][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863314.746][INFO]: Waiting for pending navigations...
+[1616863314.747][INFO]: Done waiting for pending navigations. Status: ok
+[1616863314.749][INFO]: Waiting for pending navigations...
+[1616863314.750][INFO]: Done waiting for pending navigations. Status: ok
+[1616863314.750][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863314.750][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1616863314.750][INFO]: Waiting for pending navigations...
+[1616863314.750][INFO]: Done waiting for pending navigations. Status: ok
+[1616863314.753][INFO]: Waiting for pending navigations...
+[1616863314.753][INFO]: Done waiting for pending navigations. Status: ok
+[1616863314.753][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE FindElements [  ]
+[1616863314.753][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND GetSource {
+
+}
+[1616863314.753][INFO]: Waiting for pending navigations...
+[1616863314.754][INFO]: Done waiting for pending navigations. Status: ok
+[1616863314.757][INFO]: Waiting for pending navigations...
+[1616863314.757][INFO]: Done waiting for pending navigations. Status: ok
+[1616863314.757][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE GetSource "\u003Chtml lang=\"en\" class=\"notion-html\">\u003Chead>\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=..."
+[1616863314.956][INFO]: [1ecf66aded30ae0f11b57f088a95724c] COMMAND QuitAll {
+
+}
+[1616863314.967][INFO]: [1ecf66aded30ae0f11b57f088a95724c] RESPONSE QuitAll
