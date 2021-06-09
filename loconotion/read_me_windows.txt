@@ -1,4 +1,4 @@
-# Build container with loconotion
+# Build container with loconotion (You only need to run the last line, no longer the build line)
 $ docker-compose build loconotion
 
 # Run loconotion renderer with any arguments
